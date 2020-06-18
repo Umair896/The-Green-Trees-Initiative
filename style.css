@@ -1132,6 +1132,34 @@ a {
   left: -936px;
 }
 
+.button-container a:nth-child(1) {
+  background-color: #000000;
+}
+
+#slider-image-1:target ~ .button-container a:nth-child(1) {
+  background-color: #000000;
+}
+
+#slider-image-2:target ~ .button-container a:nth-child(2) {
+  background-color: #000000;
+}
+#slider-image-2:target ~ .button-container a:nth-child(1) {
+  background-color: #ffffff;
+}
+
+#slider-image-3:target ~ .button-container a:nth-child(3) {
+  background-color: #000000;
+}
+#slider-image-3:target ~ .button-container a:nth-child(1) {
+  background-color: #ffffff;
+}
+
+#slider-image-4:target ~ .button-container a:nth-child(4) {
+  background-color: #000000;
+}
+#slider-image-4:target ~ .button-container a:nth-child(1) {
+  background-color: #ffffff;
+}
 /*---------------------TAB VERSION--------------------------*/
 
 @media screen and (min-width: 768px) {
@@ -1947,23 +1975,13 @@ a {
 
 .climate-about .change p {
   font-size: 22px;
-  width: 240px;
+  width: 260px;
   height: 200px;
   display: block;
   margin: auto;
-  /* position: relative;
-  top: 40px; */
   padding-top: 40px;
   font-weight: bold;
 }
-
-/* .climate-about .change a {
-  position: absolute;
-  top: 167px;
-  left: 10%;
-  width: 248px;
-  height: 42px;
-} */
 
 /*---------------------TAB VERSION--------------------------*/
 
@@ -2058,7 +2076,7 @@ a {
 .what-we-do-about {
   background: #354463;
   width: 100%;
-  height: 1050px;
+  height: 1070px;
 }
 
 .strive-about {
@@ -2081,7 +2099,7 @@ a {
 .strive-about p {
   color: #ffffff;
   font-size: 22px;
-  width: 302px;
+  width: 310px;
   height: 134px;
   display: block;
   margin: 33px auto;
@@ -2092,7 +2110,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-left: 20px;
+  margin-left: 26px;
 }
 
 .strive-content {
@@ -2250,7 +2268,7 @@ a {
   color: #354463;
   font-size: 14px;
   line-height: 20px;
-  width: 250px;
+  width: 280px;
   margin: auto;
   margin-bottom: 32px;
 }
@@ -2437,7 +2455,7 @@ a {
   color: #ffffff;
   font-size: 22px;
   line-height: 28px;
-  width: 330px;
+  width: 350px;
   margin: 33px auto 0;
 }
 
