@@ -51,7 +51,7 @@ header h4 {
   top: 88px;
   margin: auto;
   background: #c1f7d5;
-  width: 312px;
+  width: 260px;
   height: 40px;
   border-radius: 100px;
   display: flex;
@@ -149,11 +149,10 @@ header h4 a {
   color: #ffffff;
   font-size: 44px;
   font-style: normal;
-  position: relative;
   width: 181px;
   height: 136px;
-  top: 32px;
-  left: 32px;
+  padding-top: 32px;
+  margin-left: 30px;
 }
 
 .climate h4 {
@@ -166,20 +165,19 @@ header h4 a {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 148px;
   color: #ffffff;
   font-size: 14px;
   z-index: 5;
+  margin-top: 100px;
 }
 
 .climate .change {
   background: #ffffff;
-  width: 312px;
+  width: 85%;
   height: 240px;
   display: block;
   margin: auto;
-  position: relative;
-  top: 128px;
+  margin-top: -20px;
 }
 
 .climate .change p,
@@ -194,17 +192,15 @@ a {
   height: 78px;
   display: block;
   margin: auto;
-  position: relative;
-  top: 56px;
+  padding-top: 45px;
   font-weight: bold;
 }
 
-.climate .change a {
-  position: absolute;
-  top: 167px;
-  left: 10%;
-  width: 248px;
-  height: 42px;
+.climate .social-cause{
+  text-align: center;
+  margin: auto;
+  margin-top: 90px;
+  width: 90%;
 }
 
 /*---------------------TAB VERSION--------------------------*/
@@ -742,7 +738,7 @@ a {
   font-family: flood-std, sans-serif;
   color: #ffffff;
   font-size: 40px;
-  width: 300px; /*adjusted from 312px*/
+  width: 260px; /*adjusted from 312px*/
   height: 192px;
   position: relative;
   top: 64px;
@@ -1625,18 +1621,18 @@ a {
 .subscribe h3 {
   font-size: 22px;
   color: #354463;
-  width: 340px;
+  width: 87.5%;
   height: 78px;
   line-height: 28px;
-  margin-left: 32px;
+  margin-left: 30px;
   padding-top: 36px;
   margin-bottom: 40px;
 }
 
 .subscribe input {
   margin-top: 30px;
-  margin-left: 32px;
-  width: 192px;
+  margin-left: 30px;
+  width: 185px;
   height: 40px;
   border: none;
   border-radius: 100px;
@@ -1655,20 +1651,20 @@ a {
 }
 
 .subscribe button {
-  width: 112px;
+  width: 90px;
   height: 40px;
   background: #354463;
   border-radius: 100px;
   border: none;
   color: #c1f7d5;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   margin-left: 8px;
 }
 
 /*---------------------TAB VERSION--------------------------*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .subscribe {
     height: 255px;
   }
@@ -1745,6 +1741,7 @@ footer {
   color: #354463;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 footer h3 {
@@ -1760,7 +1757,7 @@ footer .footer-wrap h4 {
 }
 
 .contact p {
-  width: 126px;
+  width: 120px;
   height: 74px;
   font-size: 14px;
   line-height: 20px;
@@ -1777,7 +1774,7 @@ footer .footer-wrap h4 {
 
 footer h1 {
   font-family: flood-std, sans-serif;
-  font-size: 44px;
+  font-size: 30px;
   text-align: right;
   width: 181px;
   height: 136px;
@@ -1788,35 +1785,35 @@ footer h1 {
 footer .initiate {
   width: 35%;
   margin-top: 67px;
-  margin-left: 32px;
+  margin-left: 30px;
 }
 
 footer .contact {
   width: 35%;
   margin-top: 68px;
-  margin-left: 57px;
+  margin-right: 30px;
 }
 
 footer .follow {
   color: #354463;
   width: 35%;
   margin-top: 28px;
-  margin-left: 32px;
+  margin-left: 30px;
 }
 
 footer .learn {
   width: 35%;
   margin-top: 28px;
-  margin-left: 60px;
+  margin-right: 30px;
 }
 
 footer h1 {
-  margin-left: 40%;
+  margin-left: 25%;
 }
 
 /*---------------------TAB VERSION--------------------------*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   footer {
     height: 432px;
   }
@@ -1848,12 +1845,14 @@ footer h1 {
   }
 
   footer .learn {
-    margin-top: 28px;
-    margin-left: 35%;
+    margin-top: 0px;
+    margin-left: 43%;
   }
 
   footer h1 {
     margin-left: -50px;
+    position: relative;
+    right: 80px;
   }
 }
 
@@ -1959,7 +1958,7 @@ footer h1 {
 
 .climate-about .change {
   background: #ffffff;
-  width: 312px;
+  width: 85%;
   height: 264px;
   display: block;
   margin: auto;
@@ -1975,11 +1974,11 @@ a {
 
 .climate-about .change p {
   font-size: 22px;
-  width: 285px;
+  width: 85%;
   height: 200px;
   display: block;
   margin: auto;
-  padding-top: 40px;
+  padding-top: 30px;
   font-weight: bold;
 }
 
@@ -2034,7 +2033,7 @@ a {
 
 /*---------------------DESKTOP VERSION--------------------------*/
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1024px) {
   .climate-about {
     background: url(/images/about-images/climate_desk.jpg);
     width: 100%;
@@ -2076,7 +2075,7 @@ a {
 .what-we-do-about {
   background: #354463;
   width: 100%;
-  height: 1090px;
+  padding-bottom: 40px;
 }
 
 .strive-about {
@@ -2099,7 +2098,7 @@ a {
 .strive-about p {
   color: #ffffff;
   font-size: 22px;
-  width: 310px;
+  width: 85%;
   height: 134px;
   display: block;
   margin: 33px auto;
@@ -2109,12 +2108,13 @@ a {
 .strive-wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-left: 26px;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .strive-content {
-  width: 175px;
+  width: 130px;
   color: #ffffff;
   margin-top: 30px;
   margin-left: px;
@@ -2138,9 +2138,6 @@ a {
 /*---------------------TAB VERSION--------------------------*/
 
 @media screen and (min-width: 768px) {
-  .what-we-do-about {
-    height: 825px;
-  }
 
   .strive-about {
     padding-top: 64px;
@@ -2166,7 +2163,7 @@ a {
   }
 
   .strive-content {
-    width: 230px;
+    width: 200px;
   }
 
   .strive-content i {
@@ -2189,23 +2186,24 @@ a {
 /*---------------------DESKTOP VERSION--------------------------*/
 
 @media screen and (min-width: 1024px) {
+
   .what-we-do-about {
-    height: 780px;
+     padding-bottom: 80px;
   }
 
   .strive-about {
     padding-top: 90px;
+    margin-left: 80px;
   }
 
   .strive-about p {
     font-size: 34px;
-    width: 1000px;
-    height: 140px;
+    width: 80%;
     margin-left: 60px;
     line-height: 50px;
   }
   .strive-wrap {
-    margin-left: 54px;
+    margin-left: 140px;
   }
 
   .strive-content {
@@ -2236,7 +2234,7 @@ a {
 
 .team {
   width: 100%;
-  height: 990px;
+  padding-bottom: 20px;
 }
 
 .team-wrap {
@@ -2277,18 +2275,18 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 32px;
-  margin-right: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .person {
-  width: 144px;
+  width: 130px;
   margin-bottom: 24px;
 }
 
 .people .person img {
-  width: 144px;
-  height: 144px;
+  width: 130px;
+  height: 130px;
 }
 
 .person-name {
@@ -2433,9 +2431,10 @@ a {
 .impact {
   background-image: url(/images/about-images/impact.jpg);
   width: 100%;
-  height: 720px;
+  /* height: 720px; */
   background-size: cover;
   padding-top: 32px;
+  padding-bottom: 30px;
 }
 
 .our-impact {
@@ -2455,7 +2454,7 @@ a {
   color: #ffffff;
   font-size: 22px;
   line-height: 28px;
-  width: 360px;
+  width: 85%;
   margin: 33px auto 0;
 }
 
@@ -2570,12 +2569,12 @@ a {
   text-transform: uppercase;
   font-size: 14px;
   padding-top: 37px;
-  margin-left: 32px;
+  margin-left: 30px;
 }
 
 .follow-blog .icons {
   margin-top: 13px;
-  margin-left: 18px;
+  margin-left: 16px;
 }
 
 .icons i {
@@ -2593,19 +2592,19 @@ a {
   font-family: flood-std, sans-serif;
   margin: 32px 0 24px 32px;
   color: #ffffff;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .blog-content {
   background: #c1f7d5;
-  width: 312px;
+  width: 280px;
   height: 312px;
   margin-left: 32px;
   color: #354463;
 }
 
 .blog-content h3 {
-  margin-left: 32px;
+  margin-left: 24px;
   padding-top: 28px;
   font-size: 28px;
   line-height: 36px;
@@ -2613,22 +2612,22 @@ a {
 }
 
 .blog-content p {
-  margin: 12px 0 18px 32px;
+  margin: 12px 0 18px 24px;
   font-size: 14px;
   line-height: 20px;
   width: 240px;
 }
 
 .blog-content a {
-  margin-left: 32px;
+  margin-left: 24px;
   font-size: 14px;
 }
 
 .blog img {
-  width: 312px;
+  width: 280px;
   height: 312px;
   object-fit: cover;
-  margin: 32px;
+  margin: 32px 0 32px 32px;
 }
 
 /*---------------------TAB VERSION--------------------------*/
@@ -2749,11 +2748,11 @@ a {
   align-items: center;
   justify-content: space-between;
   background: #354463;
-  width: 312px;
+  width: 280px;
   height: 40px;
   border-radius: 100px;
   font-size: 14px;
-  margin: 24px 0 32px 32px;
+  margin: 24px 0 32px 30px;
 }
 
 .all-entries .events a {
@@ -2784,8 +2783,8 @@ a {
 .news {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 32px;
-  margin-right: 31px;
+   margin-left: 15px;
+  margin-right: 15px; 
   justify-content: space-between;
 }
 
@@ -2800,7 +2799,7 @@ a {
   margin-top: 18px;
 }
 .news-post img {
-  width: 148px;
+  width: 140px;
   height: 130px;
   object-fit: cover;
 }
@@ -2841,7 +2840,7 @@ a {
 }
 
 .green-park {
-  width: 313px;
+  width: 290px;
   margin-top: 16px;
 }
 
@@ -2880,7 +2879,7 @@ a {
 }
 
 .green-park img {
-  width: 313px;
+  width: 290px;
   height: 156px;
   object-fit: cover;
   margin-top: -20px;
@@ -2925,10 +2924,7 @@ a {
 /*---------------------TAB VERSION--------------------------*/
 
 @media screen and (min-width: 768px) {
-  /* .entries {
-    padding-bottom: 64px;
-  } */
-
+  
   .all-entries {
     display: flex;
     justify-content: space-around;
@@ -2941,46 +2937,10 @@ a {
   }
 
   .all-entries .events {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #354463;
-    width: 312px;
-    height: 40px;
-    border-radius: 100px;
-    font-size: 14px; */
-    margin: 70px 32px 32px 32px;
+      margin: 70px 32px 32px 32px;
   }
-  /* 
-  .all-entries .events a {
-    color: #ffffff;
-    font-size: 14px;
-  } */
-
-  /* .all-entries .events a:nth-child(1) {
-    text-decoration: none;
-    color: #354463;
-  } */
-
-  /* .all-entries .events a:nth-child(3) {
-    margin-right: 34px;
-  } */
-
-  /* .all-entries .events .events-all {
-    background: #ffffff;
-    width: 88px;
-    height: 24px;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 8px;
-  } */
-
+  
   .news {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
     margin-left: 64px;
     margin-right: 62px;
   }
@@ -3007,22 +2967,11 @@ a {
     height: 32px;
   }
 
-  /* .news-post .news-content h4 {
-    font-size: 12px;
-    text-transform: uppercase;
-  } */
-
   .news-post p {
-    /* font-size: 16px;
-    line-height: 20px; */
     width: 120px;
     margin-top: 24px;
     margin-bottom: 16px;
   }
-
-  /* .news-post a {
-      font-size: 14px;
-  } */
 
   .green-park {
     width: 416px;
@@ -3030,8 +2979,6 @@ a {
   }
 
   .green-park h3 {
-    /* font-size: 22px;
-    line-height: 28px; */
     margin-left: 32px;
     margin-bottom: 29px;
     padding-top: 33px;
@@ -3039,22 +2986,13 @@ a {
   }
 
   .green-park a {
-    /* font-size: 14px; */
     margin-left: 32px;
   }
 
   .green-park .green-park-event {
     width: 128px;
     height: 32px;
-    /* margin-left: 16px;
-    position: relative;
-    margin-top: 18px; */
   }
-
-  /* .green-park .green-park-event h4 {
-    font-size: 12px;
-    padding-left: 16px;
-  } */
 
   .green-park img {
     width: 416px;
@@ -3104,7 +3042,7 @@ a {
 
 @media screen and (min-width: 1024px) {
   .all-entries h2 {
-    margin-left: -130px;
+    margin-left: -100px;
     margin-top: 64px;
   }
 
@@ -3113,8 +3051,8 @@ a {
   }
 
   .news {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
   }
 
   .news-background {
@@ -3128,7 +3066,7 @@ a {
   }
 
   .news-post img {
-    width: 256px;
+    width: 220px;
     height: 216px;
     object-fit: cover;
   }
@@ -3151,7 +3089,7 @@ a {
   }
 
   .green-park {
-    width: 500px;
+    width: 420px;
     margin-top: 32px;
   }
 
@@ -3161,7 +3099,7 @@ a {
     margin-left: 32px;
     margin-bottom: 29px;
     padding-top: 25px;
-    width: 400px;
+    width: 380px;
   }
 
   .green-park .green-park-event {
@@ -3181,7 +3119,7 @@ a {
   }
 
   .green-park img {
-    width: 500px;
+    width: 420px;
     height: 230px;
     object-fit: cover;
     margin-top: -18px;
@@ -3260,7 +3198,7 @@ a {
 
 .work-names .work-names-list {
   background: #c1f7d5;
-  width: 312px;
+  width: 260px;
   height: 39px;
   margin-left: -16px;
 }
@@ -3272,7 +3210,7 @@ a {
 }
 
 .work-wrap img {
-  width: 312px;
+  width: 280px;
   height: 192px;
   object-fit: cover;
   display: block;
@@ -3281,16 +3219,15 @@ a {
 
 .story-wrap .story-wrap-background {
   background: #ffffff;
-  width: 312px;
-  height: 192px;
+  width: 280px;
+  /* height: 192px; */
   display: block;
   margin: auto;
 }
 
 .story-wrap p {
-  width: 290px;
-  padding-top: 30px;
-  padding-left: 31px;
+  width: 270px;
+  padding: 30px;
   font-size: 18px;
   line-height: 22px;
   color: #354463;
@@ -3299,27 +3236,27 @@ a {
 .story-wrap img {
   display: block;
   margin: 32px auto;
-  width: 312px;
+  width: 280px;
   height: 192px;
 }
 
 .story-description h3 {
   font-size: 28px;
-  margin-left: 32px;
+  margin-left: 30px;
   color: #ffffff;
 }
 
 .story-description {
-  padding-bottom: 73px;
+  padding-bottom: 60px;
 }
 
 .story-description p {
-  margin-left: 32px;
+  margin-left: 30px;
   margin-top: 27px;
   color: #ffffff;
   font-size: 14px;
   line-height: 20px;
-  width: 317px;
+  width: 270px;
 }
 
 .story-description .story-next {
