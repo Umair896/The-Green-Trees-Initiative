@@ -3694,6 +3694,10 @@ a {
   padding: 20px;
 }
 
+.frequency-wrap:nth-child(2):hover{
+  border-bottom: 1px solid #ffffff;
+}
+
 .radioContainer2 {
   font-size: 20px;
 }
