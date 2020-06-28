@@ -3555,7 +3555,7 @@ a {
 .donation-future {
   background: url(/images/donation-image/donation_mob.jpg);
   width: 100%;
-  height: 1100px;
+  height: 1200px;
   background-size: cover;
 }
 
@@ -3572,7 +3572,7 @@ a {
 
 .donation-background {
   width: 82%;
-  height: 925px;
+  height: 1000px;
   background: #354463;
   margin: auto;
   margin-top: 25px;
