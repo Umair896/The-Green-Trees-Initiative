@@ -68,22 +68,22 @@ header h4 a {
 
 /*---------------------TAB VERSION--------------------------*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   header {
-    height: 128pt;
+    height: 128px;
   }
 
   header h3 {
-    top: 20pt;
-    left: 64pt;
-    width: 150pt;
-    height: 63pt;
-    font-size: 22pt;
+    top: 20px;
+    left: 64px;
+    width: 150px;
+    height: 63px;
+    font-size: 22px;
   }
 
   header ul {
-    top: 92pt;
-    left: 36pt;
+    top: 92px;
+    left: 36px;
   }
 
   header ul li {
@@ -92,42 +92,45 @@ header h4 a {
 
   header ul li a {
     top: 0pt;
-    margin-left: 31pt;
-    font-size: 16pt;
+    margin-left: 31px;
+    font-size: 16px;
   }
 
   header h4 {
     position: absolute;
-    top: 40pt;
-    right: 64pt;
-    width: 140pt;
-    height: 48pt;
+    top: 40px;
+    right: 100px;
+    width: 140px;
+    height: 48px;
   }
 }
 
 /*---------------------DESKTOP VERSION--------------------------*/
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1024px) {
   header {
     height: 128px;
   }
 
   header h3 {
     top: 34px;
+    font-size: 26px;
+    width: 180px;
   }
 
   header ul {
     top: 59px;
-    left: 350px;
+    left: 250px;
   }
 
   header ul li a {
-    margin-left: 100px;
+    margin-left: 65px;
+    font-size: 22px;
   }
 
   header h4 {
     top: 40px;
-    right: 80px;
+    right: 50px;
     width: 160px;
     height: 48px;
   }
@@ -149,10 +152,11 @@ header h4 a {
   color: #ffffff;
   font-size: 44px;
   font-style: normal;
+  position: relative;
   width: 181px;
   height: 136px;
-  padding-top: 32px;
-  margin-left: 30px;
+  top: 32px;
+  left: 32px;
 }
 
 .climate h4 {
@@ -165,10 +169,10 @@ header h4 a {
   justify-content: center;
   align-items: center;
   position: relative;
+  top: 148px;
   color: #ffffff;
   font-size: 14px;
   z-index: 5;
-  margin-top: 100px;
 }
 
 .climate .change {
@@ -177,7 +181,8 @@ header h4 a {
   height: 240px;
   display: block;
   margin: auto;
-  margin-top: -20px;
+  position: relative;
+  top: 128px;
 }
 
 .climate .change p,
@@ -192,20 +197,22 @@ a {
   height: 78px;
   display: block;
   margin: auto;
-  padding-top: 45px;
+  position: relative;
+  top: 56px;
   font-weight: bold;
 }
 
-.climate .social-cause{
-  text-align: center;
-  margin: auto;
-  margin-top: 90px;
-  width: 90%;
+.climate .change a {
+  position: absolute;
+  top: 167px;
+  margin-left: 6%;
+  width: 88%;
+  height: 42px;
 }
 
 /*---------------------TAB VERSION--------------------------*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .climate {
     background: url(/images/climate_tab.jpg);
     width: 100%;
@@ -252,7 +259,8 @@ a {
   .climate .change a {
     position: absolute;
     top: 229px;
-    left: 67px;
+    /* left: 67px; */
+    margin-left: 70px;
     text-align: left;
     width: 376px;
     height: 16px;
@@ -261,7 +269,7 @@ a {
 
 /*---------------------DESKTOP VERSION--------------------------*/
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1024px) {
   .climate {
     background: url(/images/climate_desk.jpg);
     width: 100%;
@@ -273,14 +281,15 @@ a {
     font-size: 60px;
     position: relative;
     top: 136.67px;
-    left: 839px;
+    left: 70%;
+    
   }
 
   .climate h4 {
     width: 160px;
     position: absolute;
     top: 220px;
-    left: 224px;
+    left: 40px;
   }
 
   .climate .change {
@@ -288,7 +297,7 @@ a {
     height: 350px;
     position: absolute;
     top: 256px;
-    left: 160px;
+    left: 40px;
   }
 
   .climate .change p {
@@ -304,7 +313,7 @@ a {
   .climate .change a {
     position: absolute;
     top: 280px;
-    left: 64px;
+    /* left: 64px; */
     text-align: left;
     width: 376px;
     height: 16px;
@@ -317,23 +326,19 @@ a {
 
 .action {
   background: #c1f7d5;
-  /* width: 100%; */
-  height: 328px;
+  padding-bottom: 30px;
 }
 
 .contents {
   color: #354463;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-left: 32px;
+  margin-left: 30px;
   padding-top: 40px;
-  /* position: relative;
-  left: 32px;
-  top: 65px; */
 }
 
 .contents div {
-  width: 144px;
+  width: 120px;
 }
 
 .contents .learn h2,
@@ -375,16 +380,13 @@ a {
 
 /*---------------------TAB VERSION--------------------------*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .action {
-    height: 336px;
+    padding-bottom: 40px;
   }
 
   .contents {
     margin-left: 64px;
-    /* position: relative;
-    left: 64px;
-    top: 64px; */
   }
 
   .contents div {
@@ -415,36 +417,19 @@ a {
 
 /*---------------------DESKTOP VERSION--------------------------*/
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1024px) {
   .action {
-    height: 200px;
+    padding-bottom: 40px;
   }
 
   .contents {
-    /* position: relative;
-    left: 160px;
-    top: 79px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .contents div {
-    width: 232px;
+    width: 215px;
   }
-
-  /* .contents .volunteer,
-  .share,
-  .donate {
-    margin-left: -64px;
-  }
-
-  .contents .share {
-    margin-left: -134px;
-  }
-
-  .contents .donate {
-    margin-left: -196px;
-  } */
 
   .contents .learn h2,
   .volunteer h2,
@@ -467,26 +452,21 @@ a {
     margin-top: 0;
   }
 
-  /* .action h4 {
-    position: relative;
-    top: -100px;
-  } */
 }
 
-/*-----------------------------------OUR MISSION-----------------------------------------------*/
+/*-----------------------------------WHAT WE DO-----------------------------------------------*/
 
 /*---------------------MOBILE VERSION--------------------------*/
 
 .what-we-do {
   background: #354463;
   width: 100%;
-  height: 1728px;
+  padding-bottom: 50px;
 }
 
 .mission {
   text-align: center;
-  position: relative;
-  top: 43px;
+  padding-top: 43px;
 }
 
 .mission h3 {
@@ -504,15 +484,14 @@ a {
 .mission p {
   color: #ffffff;
   font-size: 22px;
-  width: 302px;
-  height: 134px;
+  width:85%;
   display: block;
   margin: 22px auto;
 }
 
 .planting {
   background: #ffffff;
-  width: 312px;
+  width: 300px;
   height: 415px;
   display: block;
   color: #354463;
@@ -561,19 +540,14 @@ a {
 
 /*---------------------TAB VERSION--------------------------*/
 
-@media screen and (min-width: 700px) {
-  .what-we-do {
-    height: 1384px;
-  }
+@media screen and (min-width: 768px) {
 
   .mission {
-    position: relative;
-    top: 60px;
+    padding-top: 70px;
   }
 
   .mission h3 {
-    position: relative;
-    left: -236px;
+    margin-left: 60px;
   }
 
   .mission p {
@@ -581,13 +555,14 @@ a {
     width: 640px;
     height: 140px;
     text-align: left;
+    margin-left: 60px;
   }
 
   .planting {
     width: 640px;
     height: 280px;
     display: block;
-    margin: 138px auto 0 auto;
+    margin: 80px auto 0 auto;
   }
 
   .planting:nth-child(2) {
@@ -640,55 +615,48 @@ a {
 
 /*---------------------DESKTOP VERSION--------------------------*/
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1024px) {
   .what-we-do {
-    height: 1072px;
+    padding-bottom: 80px;
   }
 
   .mission {
-    position: relative;
-    top: 88px;
-  }
-
-  .mission h3 {
-    position: absolute;
-    left: 100px;
+    padding-top: 100px;
+    margin-left: 40px;
   }
 
   .mission p {
     font-size: 44px;
-    width: 1122px;
+    width: 90%;
     height: 140px;
     text-align: left;
-    position: absolute;
-    left: 100px; /*adjusted*/
-    top: 51px;
+    margin-top: 40px;
   }
 
   .mission-wrap {
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    left: 30px; /*adjusted*/
+    left: 30px;
     margin-right: 100px;
   }
 
   .planting {
-    width: 320px;
+    width: 300px;
     height: 528px;
-    margin-top: 384px;
+    margin-top: 100px;
   }
 
   .planting:nth-child(2) {
-    margin-top: 384px;
+    margin-top: 100px;
   }
 
   .planting:nth-child(3) {
-    margin-top: 384px;
+    margin-top: 100px;
   }
 
   .planting img {
-    width: 320px;
+    width: 300px;
     height: 224px;
     object-fit: cover;
     position: relative;
@@ -698,7 +666,7 @@ a {
 
   .planting h4 {
     font-size: 28px;
-    width: 270px; /*Adjusted*/
+    width: 270px; 
     height: 70px;
     position: relative;
     left: 32px;
@@ -706,7 +674,7 @@ a {
   }
 
   .planting p {
-    width: 256px;
+    width: 240px;
     position: relative;
     left: 5px;
     top: -17px;
@@ -730,7 +698,7 @@ a {
 .hunger {
   background: url(/images/survival_mob.jpg);
   width: 100%;
-  height: 1008px;
+  padding-bottom: 30px;
   background-size: cover;
 }
 
@@ -738,11 +706,10 @@ a {
   font-family: flood-std, sans-serif;
   color: #ffffff;
   font-size: 40px;
-  width: 260px; /*adjusted from 312px*/
+  width: 280px;
   height: 192px;
-  position: relative;
-  top: 64px;
-  left: 32px;
+  padding-top: 64px;
+  margin-left: 30px;
 }
 
 .hunger .action-today {
@@ -753,9 +720,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: 90px;
-  left: 32px;
+  margin-left: 30px;
+  margin-top: 90px;
 }
 
 .hunger a {
@@ -766,7 +732,7 @@ a {
 
 .hunger .poverty {
   background: #ffffff;
-  width: 312px;
+  width: 90%;
   height: 136px;
   display: block;
   margin: auto;
@@ -775,7 +741,7 @@ a {
 }
 
 .hunger .first {
-  margin-top: 130px;
+  margin-top: -20px;
 }
 
 .hunger .second {
@@ -801,7 +767,7 @@ a {
 
 .poverty p {
   font-size: 14px;
-  width: 198px;
+  width: 180px;
   height: 34px;
   color: #354463;
   line-height: 18px;
@@ -812,7 +778,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 24px 32px 24px 0;
+  margin: 24px;
 }
 
 .poverty .icon a {
@@ -836,16 +802,16 @@ a {
   align-items: center;
   color: #ffffff;
   position: relative;
-  top: 150px;
+  margin-top: 40px;
 }
 
 /*---------------------TAB VERSION--------------------------*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .hunger {
     background: url(/images/survival_desk.jpg);
     width: 100%;
-    height: 760px;
+    padding-bottom: 60px;
     background-size: cover;
   }
 
@@ -866,13 +832,9 @@ a {
     height: 40px;
     border-radius: 100px;
     margin-left: 32px;
-    margin-top: 26px;
+    margin-top: 100px;
   }
-
-  .poverty-wrap {
-    margin-top: -85px;
-  }
-
+  
   .hunger .poverty {
     width: 340px;
     height: 135px;
@@ -880,13 +842,11 @@ a {
   }
 
   .hunger .first {
-    margin-top: 65px;
+    margin-top: -20px;
   }
-
   .hunger .second {
     margin-top: 32px;
   }
-
   .hunger .third {
     margin-top: 32px;
   }
@@ -912,24 +872,18 @@ a {
   }
 
   .poverty .icon {
-    margin: 32px 32px 32px 0;
+    margin: 32px;
   }
 
   .hunger h4 {
-    /* position: absolute;
-    top: 2620px;
-    right: 255px; */
-    margin-bottom: 130px;
+    margin-top: 70px;
     margin-left: 24px;
   }
 }
 
 /*---------------------DESKTOP VERSION--------------------------*/
 
-@media screen and (min-width: 1150px) {
-  .hunger {
-    height: 750px;
-  }
+@media screen and (min-width: 1024px) {
 
   .hunger h3 {
     font-size: 60px;
@@ -942,17 +896,17 @@ a {
   .hunger .action-today {
     width: 160px;
     margin-left: 100px;
-    margin-top: -150px;
+    margin-top: -50px;
   }
 
   .hunger .poverty {
     width: 400px;
-    height: 130px;
+    height: 150px;
     margin-right: 160px;
   }
 
   .hunger .first {
-    margin-top: 60px;
+    margin-top: -20px;
   }
 
   .hunger .second {
@@ -968,7 +922,7 @@ a {
 
   .poverty .survival {
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .poverty h5 {
@@ -984,14 +938,11 @@ a {
   }
 
   .poverty .icon {
-    margin: 24px 40px 24px 0;
+    margin: 28px 40px 24px 0;
   }
 
   .hunger h4 {
-    margin-top: 20px;
-    /* position: absolute;
-    top: 2220px;
-    right: 481px; */
+    margin-top: 70px;
   }
 }
 
@@ -1314,7 +1265,7 @@ a {
 
   .stories .read-more {
     margin-top: -60px;
-    margin-left: 50px;
+    margin-left: 80px;
   }
 
   /* ---------------------- */
@@ -1391,10 +1342,9 @@ a {
 
 .future h2 {
   font-family: flood-std, sans-serif;
-  font-size: 44px;
+  font-size: 36px;
   color: #ffffff;
-  width: 312px;
-  height: 186px;
+  width: 85%;
   display: block;
   margin: auto;
   padding-top: 69px;
@@ -1416,12 +1366,16 @@ a {
 }
 
 .future img {
-  width: 312px;
+  width: 280px;
   height: 312px;
   object-fit: cover;
   display: block;
   margin: auto;
-  margin-top: 173px;
+  margin-top: 80px;
+}
+
+.future .img-meeting{
+  margin-top: 120px;
 }
 
 .future h3 {
@@ -1429,18 +1383,19 @@ a {
   font-size: 22px;
   line-height: 28px;
   text-align: center;
-  width: 300px; /*adjusted from 313px*/
+  width: 300px; 
   display: block;
   margin: auto;
   margin-top: -10px;
 }
+
 
 .future p {
   color: #ffffff;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  width: 280px; /*adjusted from 313px*/
+  width: 280px;
   height: 128px;
   display: block;
   margin: auto;
@@ -1470,7 +1425,7 @@ a {
 
 /*---------------------TAB VERSION--------------------------*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .future {
     padding-bottom: 72px;
   }
@@ -1479,7 +1434,7 @@ a {
     width: 518px;
     height: 90px;
     margin: 0;
-    margin-left: 64px;
+    margin-left: 76px;
     padding-top: 66.81px;
     text-align: left;
   }
@@ -1534,9 +1489,13 @@ a {
   }
 
   .future .news {
-    margin-top: -48px;
+    margin-top: 0px;
+    margin-left: -10px;
   }
 
+  .future .img-meeting{
+    margin-top: 0px;
+  }
   .news .event {
     flex-direction: row-reverse;
   }
@@ -1544,9 +1503,9 @@ a {
 
 /*---------------------DESKTOP VERSION--------------------------*/
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1024px) {
   .future {
-    height: 1360px;
+    padding-bottom: 10px;
   }
 
   .future h2 {
@@ -1554,15 +1513,15 @@ a {
     width: 600px;
     height: 148px;
     margin: 0;
-    margin-left: 162px;
+    margin-left: 120px;
     padding-top: 85px;
   }
 
   .future-wrap .event {
     width: 1000px;
     height: 576px;
-    margin-top: 120px;
-    margin-left: 162px;
+    margin-top: 140px;
+    margin-left: 100px;
   }
 
   .future img {
@@ -1588,23 +1547,24 @@ a {
   .future p {
     font-size: 20px;
     line-height: 32px;
-    width: 448px;
+    width: 380px;
     height: 152px;
     margin: 0;
     margin-top: 22px;
+    margin-right: 100px;
   }
 
   .future .read-more {
-    margin-top: 48px;
+    margin-top: 80px;
     height: 48px;
   }
 
   .future .news {
-    margin-top: -130px;
+    margin-top: -80px;
   }
 
   .news .event {
-    margin-left: 140px;
+    /* margin-left: 140px; */
   }
 }
 
@@ -3444,7 +3404,6 @@ a {
   width: 100%;
   height: 80px;
   background: #ffffff;
-  /* text-align: center; */
 }
 
 .header h2 {
