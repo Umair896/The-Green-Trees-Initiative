@@ -946,8 +946,6 @@ a {
 
 /*---------------------MOBILE VERSION--------------------------*/
 
-.main-carousal {
-}
 .stories h4 {
   background: #354463;
   width: 160px;
@@ -1024,6 +1022,38 @@ a {
 
 .carousel-cell::before {
   display: block;
+}
+/*-------------CAROUSEL------- */
+
+.rural-women {
+  width: 100%;
+}
+
+/* previous-next-button */
+
+.main-carousel .flickity-prev-next-button {
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.753);
+}
+.main-carousel .flickity-prev-next-button .arrow {
+  fill: white;
+}
+.main-carousel .flickity-prev-next-button:disabled {
+  display: none;
+}
+
+/*style dots */
+
+.main-carousel .flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid black;
+  background: transparent;
+}
+
+.main-carousel .flickity-page-dots .dot.is-selected {
+  background: black;
 }
 
 /*---------------------TAB VERSION--------------------------*/
@@ -1310,12 +1340,12 @@ a {
     width: 600px;
     height: 148px;
     margin: 0;
-    margin-left: 120px;
+    margin-left: 80px;
     padding-top: 85px;
   }
 
   .future-wrap .event {
-    width: 1000px;
+    width: 900px;
     height: 576px;
     margin-top: 140px;
     margin-left: 100px;
@@ -1329,7 +1359,7 @@ a {
   }
 
   .future .earth-day {
-    margin-left: 26px;
+    margin-left: 70px;
   }
 
   .future h3 {
@@ -1358,6 +1388,7 @@ a {
 
   .future .news {
     margin-top: -80px;
+    margin-left: -80px;
   }
 }
 
@@ -2301,6 +2332,310 @@ a {
     width: 200px;
     font-size: 24px;
     line-height: 36px;
+  }
+}
+
+/*-----------------------------------RURAL-WOMEN-----------------------------------------------*/
+
+/*---------------------MOBILE VERSION--------------------------*/
+
+.look-back {
+  background: #354463;
+  padding-bottom: 60px;
+}
+
+.look-back h2 {
+  font-family: flood-std, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding-top: 50px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.rural-women .rural-women-year {
+  width: 150px;
+  height: 40px;
+  background: #ffffff;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.rural-women .rural-women-year h4 {
+  font-size: 18px;
+}
+
+.rural-women img {
+  width: 280px;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  margin-top: -20px;
+}
+
+.rural-women .rural-women-wrap {
+  background: #ffffff;
+  width: 280px;
+  margin: auto;
+  color: black;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.rural-women-wrap h3 {
+  padding-top: 36px;
+  width: 250px;
+  font-size: 22px;
+  line-height: 28px;
+  margin: auto;
+}
+
+.rural-women-wrap p {
+  margin: 22px auto 26px;
+  width: 240px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.rural-women-wrap .rural-read-more {
+  background: #c1f7d5;
+  width: 160px;
+  height: 40px;
+  border-radius: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rural-women-wrap .rural-read-more a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/*-------------CAROUSEL------- */
+
+.rural-women {
+  width: 100%;
+}
+
+/* previous-next-button */
+
+.main-carousel-about .flickity-prev-next-button {
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.753);
+}
+.main-carousel-about .flickity-prev-next-button .arrow {
+  fill: white;
+}
+.main-carousel-about .flickity-prev-next-button:disabled {
+  display: none;
+}
+
+/* position dots */
+.main-carousel-about .flickity-page-dots {
+  bottom: -40px;
+}
+
+.main-carousel-about .flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #ffffff;
+  background: transparent;
+}
+
+.main-carousel-about .flickity-page-dots .dot.is-selected {
+  background: #ffffff;
+}
+
+/*---------------------TAB VERSION--------------------------*/
+
+@media screen and (min-width: 768px) {
+  .look-back {
+    padding-bottom: 60px;
+  }
+
+  .look-back h2 {
+    text-align: left;
+    width: 60%;
+    margin: 0;
+    padding-top: 50px;
+    font-size: 40px;
+    margin-bottom: 60px;
+    margin-left: 64px;
+  }
+
+  .rural-women .rural-women-year {
+    margin-left: 96px;
+  }
+
+  .rural-women img {
+    width: 288px;
+    height: 208px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    margin-left: 64px;
+    margin-top: -20px;
+  }
+
+  .rural-women .rural-women-wrap {
+    width: 288px;
+    margin-left: 64px;
+    text-align: left;
+  }
+
+  .rural-women-wrap h3 {
+    padding-top: 24px;
+    width: 224px;
+    font-size: 22px;
+    line-height: 28px;
+    margin-left: 32px;
+  }
+
+  .rural-women-wrap p {
+    margin: 16px 32px 28px;
+    width: 200px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .rural-women-wrap .rural-read-more {
+    margin-left: 32px;
+  }
+
+  /*-------------CAROUSEL------- */
+
+  .rural-women {
+    width: 750px;
+  }
+
+  .rural-women::before {
+    display: block;
+  }
+
+  .rural-women:nth-child(2) {
+    margin-left: -433px;
+    width: 320px;
+  }
+
+  .rural-women:nth-child(3) {
+    width: 320px;
+  }
+
+  .rural-women:nth-child(4) {
+    width: 320px;
+  }
+
+  /* previous-next-button */
+
+  .main-carousel-about .flickity-prev-next-button {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.753);
+  }
+
+  /* position dots */
+  .main-carousel-about .flickity-page-dots {
+    display: none;
+  }
+}
+
+/*---------------------DESKTOP VERSION--------------------------*/
+
+@media screen and (min-width: 1024px) {
+  .look-back {
+    padding-bottom: 60px;
+  }
+
+  .look-back h2 {
+    width: 1010px;
+    margin: auto;
+    padding-top: 100px;
+    font-size: 56px;
+    line-height: 68px;
+    margin-bottom: 80px;
+  }
+
+  .rural-women .rural-women-year {
+    margin-left: 96px;
+  }
+
+  .rural-women img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    margin-left: 64px;
+    margin-top: -20px;
+  }
+
+  .rural-women .rural-women-wrap {
+    width: 350px;
+    margin-left: 64px;
+  }
+
+  .rural-women-wrap h3 {
+    padding-top: 40px;
+    width: 300px;
+    font-size: 26px;
+    line-height: 32px;
+    margin-left: 40px;
+  }
+
+  .rural-women-wrap p {
+    margin: 24px 40px 28px;
+    width: 280px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .rural-women-wrap .rural-read-more {
+    margin: 40px 40pxx;
+  }
+
+  /*-------------CAROUSEL------- */
+
+  .rural-women {
+    width: 1050px;
+  }
+
+  .rural-women::before {
+    display: block;
+  }
+
+  .rural-women:nth-child(2) {
+    margin-left: -600px;
+    width: 450px;
+  }
+
+  .rural-women:nth-child(3) {
+    width: 450px;
+  }
+
+  .rural-women:nth-child(4) {
+    width: 450px;
+  }
+
+  /* previous-next-button */
+
+  .main-carousel-about .flickity-prev-next-button {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.753);
+  }
+
+  /* position dots */
+  .main-carousel-about .flickity-page-dots {
+    display: none;
   }
 }
 
