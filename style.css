@@ -2436,8 +2436,8 @@ a {
 /* previous-next-button */
 
 .main-carousel-about .flickity-prev-next-button {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background: rgba(0, 0, 0, 0.753);
 }
 .main-carousel-about .flickity-prev-next-button .arrow {
